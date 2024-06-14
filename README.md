@@ -1,5 +1,5 @@
 # curso-Angular
- Repositório para o curso de Dart
+ Repositório para o curso de Angular
  <h1  align="center">
  curso-Angular
    <img align="center" alt="Logo-Angular" height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" />
