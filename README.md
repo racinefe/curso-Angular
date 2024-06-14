@@ -7,7 +7,7 @@
 </h1>  
 
 
-<h2 align="left">Modulos de estudo de Angular 🪄</h2>  
+<h2 align="left">Módulos de estudo de Angular 🪄</h2>  
 
 <p>
  
