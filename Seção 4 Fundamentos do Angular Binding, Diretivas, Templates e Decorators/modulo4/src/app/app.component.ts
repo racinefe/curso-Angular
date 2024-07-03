@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'modulo4';
+  inputText = "Texto Inicial2";
+  inputType = "password";
+  isDisable = false;
+
+  enableImput() {
+    this.isDisable = false;
+  }
+  disableInput() {
+    this.isDisable = true;
+  }
 }
