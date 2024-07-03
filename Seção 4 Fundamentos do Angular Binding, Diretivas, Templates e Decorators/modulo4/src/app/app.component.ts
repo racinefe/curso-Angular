@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { text } from 'stream/consumers';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,13 @@ export class AppComponent {
   inputText = "Texto Inicial2";
   inputType = "password";
   isDisable = false;
+
+  setText() {
+    this.inputType = 'text';
+  }
+  setPassword() {
+    this.inputType = 'password';
+  }
 
   enableImput() {
     this.isDisable = false;
