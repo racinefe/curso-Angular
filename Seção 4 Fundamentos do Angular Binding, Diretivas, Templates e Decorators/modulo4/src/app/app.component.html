@@ -1,4 +1,4 @@
-<br>
+<!-- <br>
 <div style="background-color: aqua; padding: 15px; width: 25rem;">
 
     <input id="meu-imput" 
@@ -14,4 +14,9 @@
     <button (click)="enableImput()">Habilitar</button> |
     <button (click)="disableInput()">Desabilitar</button>
 
-</div>
+</div> -->
+
+
+<button [attr.title]="buttonTitle">Teste</button> | 
+<button [attr.disabled] = "buttonDisable ? true : null">Desabilitar</button> | 
+<button (click) = "onButtonClick()">MUDAR PROPS DOS BOTOES</button> | 
