@@ -1,8 +1,17 @@
 <br>
-<input id="meu-imput" [value]="inputText" [type]="inputType" [disabled]="isDisable" />
-<button (click)="setText()">Tipo Texto</button> |
-<button (click)="setPassword()">Tipo Senha</button>
-<br>
-<br>
-<button (click)="enableImput()">Habilitar</button> |
-<button (click)="disableInput()">Desabilitar</button>
+<div style="background-color: aqua; padding: 15px; width: 25rem;">
+
+    <input id="meu-imput" 
+           style="margin-right:5px;margin-bottom: 5px;"
+           [value]="inputText"
+           [type]="inputType"
+           [disabled]="isDisable"
+           (keyup)="handLeInputKeyup($event)" />
+    <button (click)="setText()">Tipo Texto</button> |
+    <button (click)="setPassword()">Tipo Senha</button>
+
+    <br>
+    <button (click)="enableImput()">Habilitar</button> |
+    <button (click)="disableInput()">Desabilitar</button>
+
+</div>
