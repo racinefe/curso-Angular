@@ -24,4 +24,9 @@ export class AppComponent {
   disableInput() {
     this.isDisable = true;
   }
+
+  handLeInputKeyup(event: KeyboardEvent) {
+    const currentText = (event.target as HTMLInputElement).value
+    console.log(currentText);
+  }
 }
