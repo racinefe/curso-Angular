@@ -7,26 +7,33 @@ import { text } from 'stream/consumers';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  inputText = "Texto Inicial2";
-  inputType = "password";
-  isDisable = false;
+  // inputText = "Texto Inicial2";
+  // inputType = "password";
+  // isDisable = false;
 
-  setText() {
-    this.inputType = 'text';
-  }
-  setPassword() {
-    this.inputType = 'password';
-  }
+  // setText() {
+  //   this.inputType = 'text';
+  // }
+  // setPassword() {
+  //   this.inputType = 'password';
+  // }
 
-  enableImput() {
-    this.isDisable = false;
-  }
-  disableInput() {
-    this.isDisable = true;
-  }
+  // enableImput() {
+  //   this.isDisable = false;
+  // }
+  // disableInput() {
+  //   this.isDisable = true;
+  // }
 
-  handLeInputKeyup(event: KeyboardEvent) {
-    const currentText = (event.target as HTMLInputElement).value
-    console.log(currentText);
+  // handLeInputKeyup(event: KeyboardEvent) {
+  //   const currentText = (event.target as HTMLInputElement).value
+  //   console.log(currentText);
+  // }
+  buttonTitle = 'Titulo do botão';
+  buttonDisable = false;
+
+  onButtonClick() {
+    this.buttonTitle = "TÌTULO ALTERADO";
+    this.buttonDisable = !this.buttonDisable;
   }
 }
